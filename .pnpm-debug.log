@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_OUTDATED_NO_LOCKFILE",
+    "err": {
+      "name": "pnpm",
+      "message": "No lockfile in this directory. Run `pnpm install` to generate one.",
+      "code": "ERR_PNPM_OUTDATED_NO_LOCKFILE",
+      "stack": "pnpm: No lockfile in this directory. Run `pnpm install` to generate one.\n    at outdated (/home/tewi/.nvm/versions/node/v17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:123236:15)\n    at /home/tewi/.nvm/versions/node/v17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:123351:39\n    at Array.map (<anonymous>)\n    at outdatedDepsOfProjects (/home/tewi/.nvm/versions/node/v17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:123349:31)\n    at async Promise.all (index 0)\n    at async outdatedDepsOfProjects (/home/tewi/.nvm/versions/node/v17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:123337:38)\n    at async interactiveUpdate (/home/tewi/.nvm/versions/node/v17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:123752:38)\n    at async /home/tewi/.nvm/versions/node/v17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182194:21\n    at async run (/home/tewi/.nvm/versions/node/v17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182168:34)\n    at async runPnpm (/home/tewi/.nvm/versions/node/v17.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:182387:5)"
+    }
+  }
+}
